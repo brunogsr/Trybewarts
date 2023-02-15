@@ -41,23 +41,23 @@
                 </section>
             </section>
             <hr>
-            <section>
+            <section class="d-flex justify-content-between">
                 <!-- Segunda parte: listas (ol e ul) -->
-                <label id="label-family">Qual sua família?</label>
-                    
                 <section class="d-flex flex-column">
-                    <input id="Frontend" type="radio" name="family" value="Frontend" autocomplete="off">
-                    <label for="Frontend">Frontend</label>                    
+                    <label id="label-family">Qual sua família?</label>
+                    
+                    
+                    <label for="Frontend"><input id="Frontend" type="radio" name="family" value="Frontend" autocomplete="off">Frontend</label>                    
                
-                    <input id="Backend" type="radio" name="family" value="Backend" autocomplete="off">
-                    <label for="Backend">Backend</label>                    
+                    
+                    <label for="Backend"><input id="Backend" type="radio" name="family" value="Backend" autocomplete="off">Backend</label>                    
                
-                    <input id="FullStack" type="radio" name="family" value="FullStack" autocomplete="off">
-                    <label for="FullStack">FullStack</label>                    
+                    
+                    <label for="FullStack"><input id="FullStack" type="radio" name="family" value="FullStack" autocomplete="off">FullStack</label>                    
                 </section>
-                    <section class="conteudo-aprender-container">
+                <section class="d-flex flex-column">
                     <label id="label-content">Qual conteúdo você está com mais vontade de aprender?</label>
-                    <section class="conteudo-aprender-checkbox-container">
+                    <section class="d-flex justify-content-evenly">
                         <label for="cHoFs">
                             <input id="cHoFs" type="checkbox" class="subject" value="HoFs">HoFs
                         </label>
@@ -67,6 +67,8 @@
                         <label for="cPromises">
                             <input id="cPromises" type="checkbox" class="subject" value="Promises">Promises
                         </label>
+                    </section>
+                    <section class="d-flex justify-content-evenly">
                         <label for="cReact">
                             <input id="cReact" type="checkbox" class="subject" value="React">React
                         </label>
