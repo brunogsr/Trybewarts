@@ -21,11 +21,6 @@
     order: 3;
 }
 
-.comentarios-container {
-  display: flex;
-  flex-direction: column;
-}
-
 .main{
   display: flex;
 }

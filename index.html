@@ -20,7 +20,7 @@
             </section> 
         </form>
     </header>
-    <main class="main">
+    <main class="main d-flex">
         <img id="trybewarts-forms-logo" src="images/trybewarts-colored.svg" alt="Logo da Trybewarts">
         <form id="evaluation-form">
             <section>
@@ -52,7 +52,7 @@
                     </section>
                 </section>
             </section>
-            <section class="comentarios-container">
+            <section class="d-flex flex-column">
                 <section class="radio-avaliacao-container">
                     <label id="label-rate">Como você avalia a Trybewarts?</label>
                     <label for="v1">
@@ -86,13 +86,14 @@
                         <input id="v10" type="radio" value="10" name="rate">10
                     </label>
                 </section>
-                <section class="comentarios-container">
+                <section class="d-flex flex-column">
                     <label class="textarea">Deixe seu comentário:</label>
                     <textarea maxlength="500"></textarea>
                 </section>
-                <label id="label-infos">Você concorda com o uso das informações acima?</label>
-                <input type="checkbox" id="agreement">
-                <button id="submit-btn" type="submit" disabled="true">Enviar</button>
+                <label id="label-infos">Você concorda com o uso das informações acima?
+                    <input type="checkbox" id="agreement">
+                </label>
+                <button id="submit-btn" class="btn btn-primary" type="submit" disabled="true">Enviar</button>
             </section>
         </form>
     </main>
