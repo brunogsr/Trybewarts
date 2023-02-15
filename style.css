@@ -42,6 +42,18 @@
   order: 2;
 }
 
-#Frontend{
-  
+#input-name {
+ align-self: flex-start;
+}
+
+#input-lastname {
+  align-self: flex-end;
+}
+
+#input-email {
+  align-self: flex-start;
+}
+
+#house {
+  align-self: flex-end;
 }
