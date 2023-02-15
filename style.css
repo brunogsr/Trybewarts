@@ -32,8 +32,10 @@
   flex-direction: column;
   display: flex;
   width: 675px;
+  order: 1;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
+  order: 2;
 }
