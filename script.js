@@ -10,4 +10,9 @@ botao.addEventListener('click', function(){
     }
 )
 
-
+const agreementCheckbox = document.querySelector('#agreement');
+const enableButtonEnviar = event => {
+    const buttonEnviar = document.querySelector('#submit-btn');
+    buttonEnviar.disabled = !buttonEnviar.disabled;
+}
+agreementCheckbox.addEventListener('click', enableButtonEnviar);
