@@ -45,12 +45,12 @@
   align-self: flex-start;
 }
 
-#input-lastname {
-  align-self: flex-end;
-}
-
 #input-email {
   align-self: flex-start;
+}
+
+#input-lastname {
+  align-self: flex-end;
 }
 
 #house {
