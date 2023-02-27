@@ -16,3 +16,21 @@ const enableButtonEnviar = () => {
 };
 
 agreementCheckbox.addEventListener('click', enableButtonEnviar);
+
+/// Contador ///
+
+const comentario = document.getElementById('textarea');
+const contador500 = document.getElementById('counter');
+contador500.innerText = '500/500';
+contador500.style.alignSelf = 'flex-end';
+contador500.style.color = 'grey';
+const maxCaracteres = 500;
+
+const textoContador = () => {
+  const caracteres = comentario.value.length;
+  console.log(caracteres);
+  const caracteresRestantes = maxCaracteres - caracteres;
+  contador500.innerText = `${caracteresRestantes}/${maxCaracteres}`;
+};
+
+comentario.addEventListener('input', textoContador);
